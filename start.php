@@ -9,6 +9,9 @@ include("js/script.js");
    // include("open_mmddb.php");
 ?> 
 <body>
+    
+    <img class="logo"src="logo.png" alt="Logo">
+    
 <!-- CO2 start -->        
 <div class="front">
 <svg class="co2" onclick="loadCo2()" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
