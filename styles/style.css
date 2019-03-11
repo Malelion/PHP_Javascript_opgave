@@ -4,6 +4,7 @@
         grid-gap:1em;
     }
 .logo {
+    width: 50%;
     grid-column: 1;
     grid-row: 1;
 }
@@ -20,7 +21,7 @@
 .co2 .st6{font-size:128px;}
 
 .luftkvalitet {
-    font-size: 1em;
+    font-size: 1.4em;
     text-align: center;
     grid-column: 1;
     grid-row: 3;    
@@ -39,7 +40,7 @@
 .termometer .st7{fill:#ED2224;stroke:#ED2224;stroke-width:5;}
 
 .lufttemp {
-    font-size: 1em;
+    font-size: 1.4em;
     text-align: center;
     grid-column: 2;
     grid-row: 3;    
@@ -64,7 +65,7 @@
 	.jord .st21{fill:#FFFFFF;fill-opacity:0.274;}
 
 .jordfugt {
-    font-size: 1em;
+    font-size: 1.4em;
     text-align: center;
     grid-column: 1;
     grid-row: 5;    
@@ -83,7 +84,7 @@
 .hum .st6{fill:#FFFFFF;fill-opacity:0.274;}
 
 .luftfugt {
-    font-size: 1em;
+    font-size: 1.4em;
     text-align: center;
     grid-column: 2;
     grid-row: 5;    
