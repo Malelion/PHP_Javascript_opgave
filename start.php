@@ -232,8 +232,9 @@ include("js/script.js");
             setInterval(loadJord, 1000);
             
             function jordHandler(inputData) {
-            var jordFugt = inputData[0].value;
-            document.getElementById("jord").innerHTML = "Seneste måling " + jordFugt + " cb";
+            var setTid = inputData[0].obstime;
+            var setVaerdi = inputData[0].value;
+            document.getElementById("jord").innerHTML = "Seneste måling "  + "<br>" + setTid + "<br>" + setVaerdi + " cb";
             }
             
             function getTemp() {
@@ -252,8 +253,9 @@ include("js/script.js");
             setInterval(getTemp, 1000);
             
             function tempHandler(inputData) {
-            var setTemp = inputData[0].value;
-            document.getElementById("temp").innerHTML = "Seneste måling " + setTemp + " C°";
+            var setTid = inputData[0].obstime;
+            var setVaerdi = inputData[0].value;
+            document.getElementById("temp").innerHTML = "Seneste måling "  + "<br>" + setTid + "<br>" + setVaerdi + " C°";
             }
             
             function getLuft() {
@@ -272,10 +274,11 @@ include("js/script.js");
             setInterval(getLuft, 1000);
             
             function luftHandler(inputData) {
-            var setLuft = inputData[0].value;
-            document.getElementById("luftkval").innerHTML = "Seneste måling " + setLuft + " ppm";
+            var setTid = inputData[0].obstime;
+            var setVaerdi = inputData[0].value;
+            document.getElementById("luftkval").innerHTML = "Seneste måling "  + "<br>" + setTid + "<br>" + setVaerdi + " ppm";
             }
-     /* -------------------------------------------- */       
+         
             function getLuftFugt() {
             var luftFugtRequest = new XMLHttpRequest(); 
             luftFugtRequest.onreadystatechange = function()
@@ -292,8 +295,9 @@ include("js/script.js");
             setInterval(getLuftFugt, 1000);
             
             function luftFugtHandler(inputData) {
-            var setLuftFugt = inputData[0].value;
-            document.getElementById("luftfugt").innerHTML = "Seneste måling " + setLuftFugt + " %";
+            var setTid = inputData[0].obstime;
+            var setVaerdi = inputData[0].value;
+            document.getElementById("luftfugt").innerHTML = "Seneste måling " + "<br>" + setTid + "<br>" + setVaerdi + " %";
             }
             
            
