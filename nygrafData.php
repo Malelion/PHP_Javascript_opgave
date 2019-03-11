@@ -4,7 +4,7 @@ include("open_mmddb.php");
 $source = $_GET['s'];
 $system = $_GET['sys'];
 
-$sql = 'SELECT value';
+$sql = 'SELECT value, obstime';
 $sql = $sql . ' FROM iot ';
 $sql = $sql . ' WHERE system = "' . $system.'" AND source = "' . $source .'" ';
 $sql = $sql . ' ORDER BY id DESC limit 1';
