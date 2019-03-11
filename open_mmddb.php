@@ -1,8 +1,8 @@
 <?php
-$servername = "sql.itcn.dk:3306";
-$username = "mmdskive.EADANIA";
-$password = "s8V057SVuy";
-$database = "mmdskive.EADANIA";
+$servername = "";
+$username = "";
+$password = "*********";
+$database = "";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
