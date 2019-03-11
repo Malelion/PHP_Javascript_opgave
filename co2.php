@@ -3,10 +3,10 @@
     <head>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
  <?php
-include("js.js");
+include("js/script.js");
 ?> 
     
     <body>
