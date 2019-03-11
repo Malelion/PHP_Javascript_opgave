@@ -1,0 +1,217 @@
+.front {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:1em;
+    }
+
+.co2 {
+    grid-column: 1;
+}
+.co2 .st1{fill:#E54041;}
+.co2 .st2{fill:#FFFFFF;}
+.co2 .st3{fill:none;}
+.co2 .st4{font-family:'MyriadPro-Regular';}
+.co2 .st5{font-size:157px;}
+.co2 .st6{font-size:128px;}
+
+.luftkvalitet {
+    font-size: 1.2em;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;    
+}
+
+.termometer {
+    grid-column: 2;
+}
+.termometer .st1{fill:#E54041;}
+.termometer .st2{fill:#FFFFFF;}
+.termometer .st3{fill:url(#path1295_1_);stroke:#010101;stroke-width:5;}
+.termometer .st4{fill:none;stroke:#010101;stroke-width:5;}
+.termometer .st5{fill:url(#rect2143_1_);stroke:#010101;stroke-width:4.2935;}
+.termometer .st6{fill:#3A53A4;stroke:#3A53A4;stroke-width:5;}
+.termometer .st7{fill:#ED2224;stroke:#ED2224;stroke-width:5;}
+
+.lufttemp {
+    font-size: 1.2em;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;    
+}
+
+.jord {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.jord .st1{fill:#E54041;}
+.jord .st2{fill:#FFFFFF;}
+.jord .st3{fill:#F7A764;}
+.jord .st4{fill:#FFC910;}
+.jord .st5{fill:#FDD635;}
+.jord .st6{fill:#F4CB1C;}
+
+.jordfugt {
+    font-size: 1.2em;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 4;    
+}
+
+.hum {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.hum .st1{fill:#E54041;}
+.hum .st2{fill:#FFFFFF;}
+.hum .st3{fill:#7ACBF2;}
+.hum .st4{fill:#FFFFFF;fill-opacity:0.525;}
+.hum .st5{fill:#5291B2;fill-opacity:0.347;}
+.hum .st6{fill:#FFFFFF;fill-opacity:0.274;}
+
+.luftfugt {
+    font-size: 1.2em;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 4;    
+}
+
+/* CO2 Niveau */
+
+.co2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.graf {
+    width:100%;
+    height: :450px;
+    grid-column: span 3;
+}
+
+.co2 .termometer {
+    grid-column: 1;
+    grid-row: 2;        
+}
+
+.co2 .jord {
+    grid-column: 2;
+    grid-row: 2;        
+}
+
+.co2 .hum {
+    grid-column: 3;
+    grid-row: 2;        
+}
+
+.co2 .homepic {
+    width: 100%;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+/* jordindfald */
+
+.jord {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.graf {
+    grid-column: span 3;
+}
+
+.jord .termometer {
+    grid-column: 2;
+    grid-row: 2;        
+}
+
+.jord .co2 {
+    grid-column: 1;
+    grid-row: 2;        
+}
+
+.jord .hum {
+    grid-column: 3;
+    grid-row: 2;        
+}
+
+.jord .homepic {
+    width: 100%;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+/* Luftfugtighed */
+
+.fugt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.graf {
+    grid-column: span 3;
+}
+
+.fugt .termometer {
+    grid-column: 2;
+    grid-row: 2;        
+}
+
+.fugt .co2 {
+    grid-column: 1;
+    grid-row: 2;        
+}
+
+.fugt .jord {
+    grid-column: 3;
+    grid-row: 2;        
+}
+
+.fugt .homepic {
+    width: 100%;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+/* Temperatur */
+
+.temp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.graf {
+    grid-column: span 4;
+}
+
+.temp .hum {
+    grid-column: 3;
+    grid-row: 2;        
+}
+
+.temp .co2 {
+    grid-column: 1;
+    grid-row: 2;        
+}
+
+.temp .jord {
+    grid-column: 2;
+    grid-row: 2;        
+}
+
+.temp .homepic {
+    width: 100%;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.ramme:hover {
+    transition: .5s;
+    fill: #69c661;
+}
