@@ -13,7 +13,7 @@ function loadHum() {
   location.replace("hum.php")
 }
 function loadHome() {
-  location.replace("icons.php")
+  location.replace("start.php")
 }
 
 </script>
