@@ -3,9 +3,14 @@
         grid-template-columns: 1fr 1fr;
         grid-gap:1em;
     }
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+}
 
 .co2 {
     grid-column: 1;
+    grid-row: 2;
 }
 .co2 .st1{fill:#E54041;}
 .co2 .st2{fill:#FFFFFF;}
@@ -18,11 +23,12 @@
     font-size: 1em;
     text-align: center;
     grid-column: 1;
-    grid-row: 2;    
+    grid-row: 3;    
 }
 
 .termometer {
     grid-column: 2;
+    grid-row: 2;
 }
 .termometer .st1{fill:#E54041;}
 .termometer .st2{fill:#FFFFFF;}
@@ -36,12 +42,12 @@
     font-size: 1em;
     text-align: center;
     grid-column: 2;
-    grid-row: 2;    
+    grid-row: 3;    
 }
 
 .jord {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 4;
 }
 
     .jord .st10{fill:#E54041;}
@@ -61,12 +67,12 @@
     font-size: 1em;
     text-align: center;
     grid-column: 1;
-    grid-row: 4;    
+    grid-row: 5;    
 }
 
 .hum {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 4;
 }
 
 .hum .st1{fill:#E54041;}
@@ -80,7 +86,7 @@
     font-size: 1em;
     text-align: center;
     grid-column: 2;
-    grid-row: 4;    
+    grid-row: 5;    
 }
 
 /* CO2 Niveau */
