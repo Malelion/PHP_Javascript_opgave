@@ -8,13 +8,11 @@
  <?php
 include("js/script.js");
 ?> 
-    
     <body>
     
-        <h1>Jord Jordfugtighed</h1>
+        <h1>Jordfugtighed</h1>
         <div class="jord">
         <div class="graf" id="grafen"></div>
-       
 <!-- CO2 start -->        
 
 <svg class="co2" onclick="loadCo2()" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -94,7 +92,6 @@ include("js/script.js");
 
 
 <!-- Termometer slut -->
-
 <!-- Luftfugtighed Start -->
         
  <?xml version="1.0" encoding="utf-8"?>
@@ -151,14 +148,14 @@ include("js/script.js");
 	</g>
 </g>
 </svg>
-      
-<!-- Luftfugtighed Slut -->  
+       
+<!-- Luftfugtighed Slut --> 
+ <!-- Home start -->
         
-<!-- Home start -->
-        
-<img class="homepic" onclick="loadHome()" src="home.png" alt="Hjem knap">        
-<!-- Home slut -->
- </div>         
+<img class="homepic" onclick="loadHome()" src="home.png" alt="Hjem knap">           
+<!-- Home slut -->           
+</div> 
+         
 <script>
         function loadDoc() {
             var xhttp = new XMLHttpRequest(); 
